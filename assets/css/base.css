@@ -1,0 +1,56 @@
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .title__main {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 768px) {
+    .login__intro {
+        display: none;
+    }
+    .survey__inner-heading {
+        margin-top: 300px;
+    }
+    .survey__inner-main {
+        display: flex;
+        justify-content: center;
+    }
+    .main__item {
+        width: 40%;
+        margin: 12px 12px;
+    }
+    .introduce__heading {
+        text-align: center;
+        margin-top: 1200px;
+        margin-bottom: 60px;
+    }
+    .introduce__item {
+        width: 80%;
+        margin-bottom: 42px;
+    }
+    .footer {
+        margin-top: 800px;
+    }
+    .footer__links {
+        display: none;
+    }
+}
